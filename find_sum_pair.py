@@ -16,9 +16,6 @@ def find_sum_pair(numbers, sum):
         diff = sum - n_key
         if numbers_dict.has_key(diff):
             print "Found numbers ", n_key, " and ", diff, " which sum equals to ", sum
-            #numbers_dict.pop(n_key)
-            #numbers_dict.pop(diff)
-
 
 
 # Main #
